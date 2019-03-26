@@ -1,0 +1,53 @@
+{
+  "name": "wefuse-redo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ap.cx/react-fullpage": "^0.1.10-alpha",
+    "@bit/bit.envs.compilers.react": "^1.0.1",
+    "@bit/formidablelabs.react-animations.fade-in": "^1.0.0",
+    "@fullpage/react-fullpage": "^0.1.13",
+    "animate-components": "^1.4.8",
+    "animate.css": "^3.7.0",
+    "animejs": "^3.0.1",
+    "aos": "^2.3.4",
+    "fullpage.js": "^3.0.4",
+    "hover.css": "^2.3.2",
+    "materialize-css": "^1.0.0",
+    "radium": "^0.25.1",
+    "react": "^16.8.5",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animate.css": "0.0.4",
+    "react-animated-css-onscroll": "^1.0.2",
+    "react-animation": "^1.0.9",
+    "react-animation-components": "^3.0.0",
+    "react-dom": "^16.8.5",
+    "react-grid-system": "^4.4.3",
+    "react-materialize": "^3.0.2",
+    "react-motion": "^0.5.2",
+    "react-parallax": "^2.2.0",
+    "react-pose": "^4.0.8",
+    "react-scripts": "2.1.8",
+    "react-scroll": "^1.7.11",
+    "react-scroll-effects": "^1.0.13",
+    "react-scroll-parallax": "^2.0.4",
+    "react-scrollable-css": "^1.0.1",
+    "react-simple-animate": "^2.6.5",
+    "react-spark-scroll-gsap": "^4.0.0",
+    "react-tilt": "^0.1.4",
+    "scrollmagic": "^2.0.6",
+    "scrollreveal": "^4.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,27 @@
+.circle {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  padding: 20% 0;
+  border-radius: 50%;
+
+  /* Just making it pretty */
+  
+  -shadow: #7DB273;
+  -shadow-length: 4px;
+  box-shadow: 0 -shadow-length 0 0 -shadow;
+  text-shadow: 0 -shadow-length 0 -shadow;
+  background: #2C2C32;
+
+  color: white;
+  font-family: Helvetica, Arial #7DB273, sans;
+  
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#rotate-text {list-style-type: none; padding-right: 40px; padding: 40px;-webkit-transform: rotate(270deg);margin-left: -795px;}

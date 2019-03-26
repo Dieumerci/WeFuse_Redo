@@ -1,0 +1,191 @@
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1B1A18
+}
+
+div.header-site{
+  
+  background: #1B1A18
+}
+
+div.section1{
+  margin-top: 55px;
+  /* background-image: url(assets/img/background.jpg); */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 55px;
+  padding-bottom: 355px;
+}
+div.section2{
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+div.section4{
+  margin-top: -15px;
+  /* background-image: url(assets/img/background2.jpg); */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+div.footer-site{
+  padding-top: 10px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.tab-bar p{
+	border-top: solid 1px #ddd;
+	margin: 0px;
+	margin-top: -1px;
+	font-size: 170%;
+  padding: 40px 20px;
+	display: none;
+	position: absolute;
+  width: 100%;
+}
+
+.tab-bar{
+	height: 100px;
+  color: #7f8c8d;
+}
+
+.tab-bar h2{
+	padding: 8px 15px;
+	font-size: 100%;
+	font-weight: 100;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+}
+
+.tab-bar h2:hover{
+	background: #eee;
+	cursor: pointer;
+}
+
+.active + p {
+  display: block;
+}
+/*End CSS example*/
+
+/*Other CSS*/
+body{
+  font-family: helvetica;
+  font-size: 1.2em;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  width: 40%;
+}
+
+.container{ 
+   margin-top: 50px; 
+}
+
+
+/*base code*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+/*the animation definition*/
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, .75, 1);
+    -ms-transform: scale3d(1.25, .75, 1);
+    transform: scale3d(1.25, .75, 1)
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    -ms-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, .85, 1);
+    -ms-transform: scale3d(1.15, .85, 1);
+    transform: scale3d(1.15, .85, 1)
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    -ms-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1)
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    -ms-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1)
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1)
+  }
+}
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand
+}
